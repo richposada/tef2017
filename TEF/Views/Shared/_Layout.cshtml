@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>The EVAN Foundation</title>
+        <link href="~/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <div id="main">
+            <div style="width:100%">
+                <div id="leftbar">
+                    <img src="~/Images/logo.jpg" />
+                    <div id="navigation">
+                        <ul class="top-level">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><a href="/Home/Mission">Mission</a></li>
+                            <li><a href="/Home/Evan">Evan's Story</a></li>
+                            <li><a href="/Home/Neuroblastoma">About Neuroblastoma</a></li>
+                            <li><a href="/Home/Donate">Donate</a></li>
+                            <li><a href="/Home/News">News</a></li>
+                            <li><a href="/Home/Help">How Can I Help?</a></li>
+                            <li><a href="/Home/Treats">Treats and Treasures</a></li>
+                            <li><a href="/Home/Leadership">Leadership</a></li>
+                            <li><a href="/Home/Research">Research</a></li>
+                        </ul>
+                    </div>
+
+                    <div id='ldrdiv'>
+                        <div id='ldrital'>The EVAN Foundation is grateful for the support of the following partners</div>
+                        <div id='ldrdiv'>
+                            <div id='ldrdiv'>
+                                <div id='ldrtitle'><a href="http://www.unither.com/" target='_new'><img src='../Images/unitedtherapeutics.gif' width="250"/></a></div>
+                                <div id='ldrtitle'><a href="https://www.asdhealthcare.com/" target='_new'><img src='../Images/asd.png'/></a></div>
+                            </div>
+                            <div id='ldrdiv'>
+                                <div id='ldrtitle'><a href="http://mssa.net/" target='_new'><img src='../Images/mssa.png'/></a></div>
+                            </div>
+
+                            <div id='ldrdiv'>
+                                <div id='ldrtitle'><a href="http://www.assurant.com/" target='_new'><img src='../Images/assurant.png' width="250"/></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                    <div id="content_section">
+                        @RenderBody()
+                    </div>
+                </div>
+                
+                
+        </div>
+        
+        
+        @Scripts.Render("~/bundles/jquery")
+        
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
