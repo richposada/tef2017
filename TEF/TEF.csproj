@@ -252,6 +252,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\aac.jpg" />
+    <Content Include="Images\bms.jpg" />
+    <Content Include="Images\concert1.JPG" />
+    <Content Include="Images\concert2.jpg" />
     <Content Include="Images\golf1.jpg" />
     <Content Include="Images\golf2.jpg" />
     <Content Include="Images\golf2018.jpg" />
@@ -1025,6 +1029,7 @@
     <Content Include="Scripts\kendo\js\kendo.window.min.js.map" />
     <Content Include="Views\Home\Golf.cshtml" />
     <Content Include="Views\Home\Fish2016.cshtml" />
+    <Content Include="Views\Home\Concert.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

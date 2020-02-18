@@ -187,3 +187,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/.vs/TEF/v16/Server/sqlite3/db.lock
+/.vs/TEF/v16/Server/sqlite3/storage.ide
+/.vs/TEF/v16/Server/sqlite3/storage.ide-shm
+/.vs/TEF/v16/Server/sqlite3/storage.ide-wal
