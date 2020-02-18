@@ -10,7 +10,7 @@ namespace TEF.Controllers
     {
         public ActionResult Index()
         {
-            return View("Index");
+            return View("Golf");
         }
 
         public ActionResult Mission()

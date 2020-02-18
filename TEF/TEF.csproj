@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -251,6 +252,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\golf1.jpg" />
+    <Content Include="Images\golf2.jpg" />
+    <Content Include="Images\golf2018.jpg" />
     <Content Include="favicon.GIF" />
     <Content Include="Global.asax" />
     <Content Include="Images\AACRProfile.pdf" />
@@ -261,9 +265,16 @@
     <Content Include="Images\EVANFest2014.pdf" />
     <Content Include="Images\firstplace.jpg" />
     <Content Include="Images\Fish2016.JPG" />
+    <Content Include="Images\Fish2018.jpg" />
+    <Content Include="Images\Fish2018_2.jpg" />
     <Content Include="Images\Fish_Treats.jpg" />
     <Content Include="Images\Golf.invitation.2013.trifold.pdf" />
+    <Content Include="Images\golf2019.jpg" />
+    <Content Include="Images\golf3.jpg" />
+    <Content Include="Images\golf4.jpg" />
     <Content Include="Images\ObamaLetter.pdf" />
+    <Content Include="Images\optreats.JPG" />
+    <Content Include="Images\phillytreats.jpg" />
     <Content Include="Images\sponsors2016.JPG" />
     <Content Include="Images\Sponsorship.flyer.2013.pdf" />
     <None Include="Properties\PublishProfiles\FTP SmarterASP.NET.pubxml" />
